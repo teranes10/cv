@@ -1,0 +1,39 @@
+body {
+  background-color: #f9fcff;
+  background-image: linear-gradient(147deg, #f9fcff 0%, #dee4ea 74%);
+}
+.profile {
+  display: flex;
+  align-items: center;
+}
+.profile .textBox {
+  margin-left: 25px;
+}
+.profile .textBox h1 {
+  font-size: 4em;
+  margin: 0;
+}
+.profile .textBox span {
+  color: #8b5fff;
+}
+.profile .textBox p {
+  font-size: 1.5em;
+  margin: 5px 0;
+}
+.profile .textBox .btn {
+  font-size: 1.5em;
+  font-weight: bold;
+  text-decoration: none;
+  position: absolute;
+  margin-top: 15px;
+  padding: 12px;
+  border-radius: 15px;
+  color: white;
+  background-color: #8b5fff;
+}
+.profile-img {
+  width: 250px;
+  height: 250px;
+  border: 1.5px solid #fff;
+  border-radius: 50%;
+}
